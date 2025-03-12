@@ -5,20 +5,20 @@ POST http://localhost:4000/add-notes
 Content-Type: application/json
 
 {
-    "title": "Tugase",
-    "content": "50000",
-    "category" : "tabungan"
+    "title": "Ayam",
+    "content": "20000",
+    "category" : "hutang"
 }
 
 ###
-PUT http://localhost:4000/edit-notes/3
+PUT http://localhost:4000/edit-notes/11
 Content-Type: application/json
 
 {
-  "title": "fotocopy",
-  "content": "5k",
-  "category" : "Hutang"
+  "title": "BEBEK",
+  "content": "AKU INGIN MENJADI DUYUNG PLIS",
+  "category" : "khayalan"
 }
 
 ###
-DELETE http://localhost:4000/delete-notes/4
+DELETE http://localhost:4000/delete-notes/3
